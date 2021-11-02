@@ -32,7 +32,7 @@ Or by using command prompt but make sure you are in the correct project folder "
 
 
 ## Testing
-I used in memory data store and seeded User and Payment with these id with its balances and list of payments
+I used in memory data store and seeded User and Payment with these ids and its corresponding  balances and list of payments
    
     id:1
     id:2
