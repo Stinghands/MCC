@@ -40,20 +40,30 @@ I used in memory data store and seeded User and Payment with these id with its b
    
 
 ### Sample Tests
-For this test we will just use "id" to get the required response
+For this test we will just use "id" to get the required response 
+- use your port number
+- try changing <id> from id's above
 
-To get the user account balance
 
-    https://localhost:<port>/api/User/<id>
 
-    E.g https://localhost:44342/api/users/1
+To get the user account balance 
+
+    https://localhost:<port>/api/Users/<id>
+
+Example 
+
+    https://localhost:44342/api/Users/1
+    https://localhost:5001/api/Users/1
 
 
 To get the user payment list
 
     https://localhost:<port>/api/Payment/<id>
 
-    E.g https://localhost:44342/api/Payment/3
+Example 
+
+    https://localhost:44342/api/Payment/1
+    https://localhost:5001/api/Payment/1
 
 Or you can use the swaggerUI to test the api
 
